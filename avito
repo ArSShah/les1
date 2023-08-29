@@ -1,1 +1,10 @@
-
+import UIKit
+page lang="ru"
+enum Items {
+      case Товары для дома
+      case Электроника
+      case Одежда
+}
+struct Squre {
+var 
+            
