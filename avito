@@ -1,10 +1,15 @@
-import UIKit
-page lang="ru"
-enum Items {
-      case Товары для дома
-      case Электроника
-      case Одежда
+import SwiftUI
+
+var navigationBar: some Viwe {
+      Hstack {
+            iamge("Avito test)
+            Spacer()
+            Hstack(spacing: 15) {
+            Button(action: {}) {
+                  image(" Заполнить!")
+            }
+            .foregroundColor(.
+      }
+      .padding(.horizontal, 20)
 }
-struct Squre {
-var 
             
