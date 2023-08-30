@@ -1,5 +1,12 @@
 import SwiftUI
 
+struct  View: View {
+      var body: spme View {
+            navigationBar
+            items
+            Spacer()
+      }
+}
 var navigationBar: some Viwe {
       Hstack {
             iamge("Avito test)
@@ -12,4 +19,23 @@ var navigationBar: some Viwe {
       }
       .padding(.horizontal, 20)
 }
-            
+//      var items: some View {
+//
+//      }
+}
+
+struct CollectionView: Identifibale {
+      var id: String {
+          title  
+      let title: String
+      let thumbnail^ image
+struct CollectionView: View
+      var body: some View
+            Image(" Заполнить!")
+                  .resizable()
+                  .frame(widht: 60, height: 60)
+                  .clipped()
+                  .scaledToFill()
+                  .CornerRadius(50)
+      }
+}
